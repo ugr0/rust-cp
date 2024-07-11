@@ -1,3 +1,9 @@
+use proconio::input;
+
 fn main() {
-    todo!();
+    input! {
+        n: i32
+    }
+
+    println!("{:010b}", n)
 }
